@@ -711,3 +711,210 @@ footer {
 .nav-menu .submenu a { display: block; padding: 8px 16px; white-space: nowrap; }
 .nav-menu .submenu a:hover { background: rgba(59, 130, 246, 0.1); }
 
+
+/* docs.php - 参数卡片样式 */
+.section-title {
+    font-size: 28px;
+    margin: 40px 0 24px;
+    color: var(--text-primary);
+}
+
+.section-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    padding: 32px;
+    margin-bottom: 24px;
+    border: 1px solid var(--border-color);
+}
+
+.section-card h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: var(--accent-primary);
+}
+
+.section-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--accent-cyan);
+}
+
+.info-box {
+    background: var(--bg-secondary);
+    border-left: 4px solid var(--accent-primary);
+    padding: 16px 20px;
+    margin: 16px 0;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.info-box h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+}
+
+.info-box ul {
+    margin: 8px 0 0 20px;
+    color: var(--text-secondary);
+}
+
+.info-box li {
+    margin: 4px 0;
+}
+
+.param-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.param-card:hover {
+    border-color: var(--accent-primary);
+    box-shadow: var(--shadow-glow);
+}
+
+.param-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.param-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin: 0;
+    font-family: 'Monaco', 'Menlo', monospace;
+}
+
+.param-type {
+    background: var(--accent-secondary);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.param-required {
+    background: var(--accent-orange);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.param-content {
+    padding: 24px;
+}
+
+.param-description {
+    color: var(--text-secondary);
+    font-size: 15px;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+.param-details {
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.detail-item:last-child {
+    margin-bottom: 0;
+}
+
+.detail-label {
+    color: var(--text-muted);
+    font-size: 13px;
+    min-width: 80px;
+    font-weight: 500;
+}
+
+.detail-value {
+    color: var(--text-primary);
+    font-size: 13px;
+}
+
+.detail-value code {
+    background: var(--bg-primary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-size: 12px;
+    color: var(--accent-cyan);
+}
+
+.param-details pre {
+    background: var(--bg-primary);
+    padding: 12px;
+    border-radius: var(--radius-sm);
+    overflow-x: auto;
+    margin: 8px 0 0;
+}
+
+.param-details pre code {
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-size: 12px;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+
+.code-block {
+    background: var(--bg-primary);
+    border-radius: var(--radius-sm);
+    padding: 20px;
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+}
+
+.code-block pre {
+    margin: 0;
+}
+
+.code-block code {
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.section-card ul {
+    list-style: none;
+    margin-top: 16px;
+}
+
+.section-card li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-card li:last-child {
+    border-bottom: none;
+}
+
+.section-card a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.section-card a:hover {
+    color: var(--accent-cyan);
+    text-decoration: underline;
+}
