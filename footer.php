@@ -12,6 +12,9 @@
                         <li><a href="index.php">首页</a></li>
                         <li><a href="features.php">功能介绍</a></li>
                         <li><a href="install.php">安装指南</a></li>
+                <li><a href="install-mac.php">Mac 安装</a></li>
+                <li><a href="install-windows.php">Windows 安装</a></li>
+                <li><a href="feishu.php">飞书集成</a></li>
                         <li><a href="getting-started.php">快速开始</a></li>
                     </ul>
                 </div>

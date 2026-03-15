@@ -14,7 +14,13 @@
                 <ul class="nav-menu">
                     <li><a href="index.php">首页</a></li>
                     <li><a href="features.php">功能</a></li>
-                    <li><a href="install.php">安装</a></li>
+                    <li><a href="install.php">安装</a>
+            <ul class="submenu">
+                <li><a href="install-mac.php">Mac</a></li>
+                <li><a href="install-windows.php">Windows</a></li>
+                <li><a href="feishu.php">飞书</a></li>
+            </ul>
+        </li>
                     <li><a href="getting-started.php">快速开始</a></li>
                     <li><a href="config.php">配置</a></li>
                     <li><a href="skills.php">技能市场</a></li>
